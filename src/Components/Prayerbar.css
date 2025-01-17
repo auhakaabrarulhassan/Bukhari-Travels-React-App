@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.m-0{
+    margin: 0;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.brownish-color{
+    color: #baa35d;
+}
+
+.parent-container{
+    background: linear-gradient(to bottom, rgba(186, 163, 93, 0.7), rgba(38, 38, 38, 0.7));
+}
+.prayers-times-bar {
+    list-style-type: none;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+.email-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.email-section{
+    margin-bottom: 0px;
+}
+
+.logo-style{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #262626;
+}
+
+.logo-style{
+    color: #fff;
+}
+
+.logo-style:hover{
+    color: #262626;
+    background-color: #baa35d;
+    transition: .3s all ease;
+}
+
+.email-description a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.email-description p{
+    color: #fff;
+}
+
+.email-description span{
+    color: #fff;
+}
+
+
+@media (max-width: 1168px){
+    .parent-container{
+        display: none;
+    }
+}
+
+@media (max-width: 360px){
+    .parent-container{
+        display: none;
+    }
+}
