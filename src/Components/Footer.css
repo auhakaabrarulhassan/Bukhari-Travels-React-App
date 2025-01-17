@@ -107,6 +107,7 @@
     background-color: #baa35d;
     text-align: center;
     font-weight: 600;
+    margin-top: 25px;
 }
 
 @media (max-width: 393px){

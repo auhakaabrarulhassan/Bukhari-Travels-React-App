@@ -8,7 +8,6 @@ import Pilgrimguidance from "./Pilgrimguidance";
 import Pilgrimreviews from "./Pilgrimreviews";
 
 function App() {
-  let numbers = ["Abrar ", "Haseeb ", "Ahmad"];
   return (
     <div className="App">
       <Prayerbar></Prayerbar>
