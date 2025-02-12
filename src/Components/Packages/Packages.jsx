@@ -27,7 +27,6 @@ import image23 from "../Packages/Assets/Package-img-23.png";
 import image24 from "../Packages/Assets/Package-img-24.png";
 import image25 from "../Packages/Assets/Package-img-25.png";
 import image26 from "../Packages/Assets/Package-img-26.png";
-import image27 from "../Packages/Assets/Package-img-27.png";
 import image28 from "../Packages/Assets/Package-img-28.png";
 import image29 from "../Packages/Assets/Package-img-29.png";
 import image30 from "../Packages/Assets/Package-img-30.png";
@@ -42,6 +41,7 @@ import image38 from "../Packages/Assets/Package-img-38.png";
 import image39 from "../Packages/Assets/Package-img-39.png";
 import image40 from "../Packages/Assets/Package-img-40.png";
 import image41 from "../Packages/Assets/Package-img-41.png";
+
 
 function Packages() {
   return (
@@ -127,7 +127,7 @@ function Packages() {
               <div className="package-items">
                 <div className="col-lg-12 col-md-6 col-sm-12">
                   <p className="item-1 text-green mb-2">
-                    <i className="fa-regular fa-leaf" />
+                    <i className="fa-regular fa-leaf me-2" />
                     <span className="text-bold">
                       Ziarah &amp; Umrah Guide Optional
                     </span>
@@ -135,7 +135,7 @@ function Packages() {
                 </div>
                 <div className="col-lg-12 col-md-6 col-sm-12">
                   <p className="item-2 text-pink">
-                    <i className="fa-solid fa-flag" />
+                    <i className="fa-solid fa-flag me-2" />
                     <span className="text-bold">All-inclusive Package</span>
                   </p>
                 </div>
@@ -284,7 +284,7 @@ function Packages() {
               <div className="package-items">
                 <div className="col-lg-12 col-md-6 col-sm-12">
                   <p className="item-1 text-green mb-2">
-                    <i className="fa-regular fa-leaf" />
+                    <i className="fa-regular fa-leaf me-2" />
                     <span className="text-bold">
                       Ziarah Included | Umrah Guide Optional
                     </span>
@@ -292,7 +292,7 @@ function Packages() {
                 </div>
                 <div className="col-lg-12 col-md-6 col-sm-12">
                   <p className="item-2 text-pink">
-                    <i className="fa-solid fa-flag" />
+                    <i className="fa-solid fa-flag me-2" />
                     <span className="text-bold">
                       Miqat Dhul Hulaifa in Madinah
                     </span>
@@ -443,7 +443,7 @@ function Packages() {
               <div className="package-items">
                 <div className="col-lg-12 col-md-6 col-sm-12">
                   <p className="item-1 text-green mb-2">
-                    <i className="fa-regular fa-leaf" />
+                    <i className="fa-regular fa-leaf me-2" />
                     <span className="text-bold">
                       Ziarah &amp; Umrah Guide Optional
                     </span>
@@ -451,7 +451,7 @@ function Packages() {
                 </div>
                 <div className="col-lg-12 col-md-6 col-sm-12">
                   <p className="item-2 text-pink">
-                    <i className="fa-solid fa-flag" />
+                    <i className="fa-solid fa-flag me-2" />
                     <span className="text-bold">All-inclusive package</span>
                   </p>
                 </div>
@@ -586,7 +586,7 @@ function Packages() {
             <div className="row package-items">
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-1 text-green mb-2">
-                  <i className="fa-regular fa-leaf" />
+                  <i className="fa-regular fa-leaf me-2" />
                   <span className="text-bold">
                     Ziarah &amp; Umrah Guide Optional
                   </span>
@@ -594,7 +594,7 @@ function Packages() {
               </div>
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-2 text-pink">
-                  <i className="fa-solid fa-flag" />
+                  <i className="fa-solid fa-flag me-2" />
                   <span className="text-bold">All-inclusive package</span>
                 </p>
               </div>
@@ -743,7 +743,7 @@ function Packages() {
             <div className="row package-items">
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-1 text-green mb-2">
-                  <i className="fa-regular fa-leaf" />
+                  <i className="fa-regular fa-leaf me-2" />
                   <span className="text-bold">
                     Ziarah &amp; Umrah Guide Optional
                   </span>
@@ -751,7 +751,7 @@ function Packages() {
               </div>
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-2 text-pink">
-                  <i className="fa-solid fa-flag" />
+                  <i className="fa-solid fa-flag me-2" />
                   <span className="text-bold">All-inclusive package</span>
                 </p>
               </div>
@@ -889,7 +889,7 @@ function Packages() {
             <div className="row package-items">
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-1 text-green mb-2">
-                  <i className="fa-regular fa-leaf" />
+                  <i className="fa-regular fa-leaf me-2" />
                   <span className="text-bold">
                     Ziarah &amp; Umrah Guide Optional
                   </span>
@@ -897,7 +897,7 @@ function Packages() {
               </div>
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-2 text-pink">
-                  <i className="fa-solid fa-flag" />
+                  <i className="fa-solid fa-flag me-2" />
                   <span className="text-bold">All-inclusive package</span>
                 </p>
               </div>
@@ -1069,7 +1069,7 @@ function Packages() {
             <div className="row package-items">
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-1 text-green mb-2">
-                  <i className="fa-regular fa-leaf" />
+                  <i className="fa-regular fa-leaf me-2" />
                   <span className="text-bold">
                     Immersive Experience of The Prophet's Legacy
                   </span>
@@ -1077,7 +1077,7 @@ function Packages() {
               </div>
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-2 text-pink">
-                  <i className="fa-solid fa-flag" />
+                  <i className="fa-solid fa-flag me-2" />
                   <span className="text-bold">Popular</span>
                 </p>
               </div>
@@ -1275,7 +1275,7 @@ function Packages() {
             <div className="row package-items">
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-1 text-green mb-2">
-                  <i className="fa-regular fa-leaf" />
+                  <i className="fa-regular fa-leaf me-2" />
                   <span className="text-bold">
                     Ziarah Included | Umrah Guide Optional
                   </span>
@@ -1283,7 +1283,7 @@ function Packages() {
               </div>
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-2 text-pink">
-                  <i className="fa-solid fa-flag" />
+                  <i className="fa-solid fa-flag me-2" />
                   <span className="text-bold">All-inclusive Package</span>
                 </p>
               </div>
@@ -1483,7 +1483,7 @@ function Packages() {
             <div className="row package-items">
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-1 text-green mb-2">
-                  <i className="fa-regular fa-leaf" />
+                  <i className="fa-regular fa-leaf me-2" />
                   <span className="text-bold">
                     Ziarah Included | Umrah Guide Optional
                   </span>
@@ -1491,7 +1491,7 @@ function Packages() {
               </div>
               <div className="col-lg-12 col-md-6 col-sm-12">
                 <p className="item-2 text-pink">
-                  <i className="fa-solid fa-flag" />
+                  <i className="fa-solid fa-flag me-2" />
                   <span className="text-bold">All-inclusive Package</span>
                 </p>
               </div>

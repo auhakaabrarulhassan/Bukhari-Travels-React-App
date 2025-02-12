@@ -37,7 +37,7 @@ function UmrahhPackages() {
               deployment &amp; maintenance.
             </p>
           </div>
-          <div className="package-items">
+          <div className="packaged-items">
             <p>
               <i className="fa-regular fa-badge-check" />
               Passport &amp; Visa
