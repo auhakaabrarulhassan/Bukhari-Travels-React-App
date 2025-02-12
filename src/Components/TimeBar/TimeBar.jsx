@@ -7,7 +7,7 @@ function TimeBar() {
     <div className="container">
       <div className="row">
         <div className="left-content col-lg-12 col-md-12 col-sm-12">
-          <i className="fa-solid fa-clock edit-icon" />
+          <i className="fa-solid fa-clock edit-icon me-2" />
           <p className="open-hours-edit">Open Hours: Mon-Fri 8:00 am - 6:00 pm</p>
           <p>
             <span className="bold-text"> (Pakistan Standard Time)</span>
