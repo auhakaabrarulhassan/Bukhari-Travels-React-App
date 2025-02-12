@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.news-section{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: #F5f5f5;
+}
+.news-description{
+    font-size: 42px;
+}

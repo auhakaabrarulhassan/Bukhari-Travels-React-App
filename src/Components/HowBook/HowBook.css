@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.how-to-book-section{
+    height: auto;
+    width: 100%;
+    background-image: url(./Assets/how\ to\ book\ bg\ image.png);
+    position: relative;
+}
+
+.step-box{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.box-icon{
+    background-color: #baa35d;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 38px;
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #282828;
+}
+
+.box-title{
+    font-size: 20px;
+    font-family: "prata", sans-serif;
+    font-weight: 500;
+    color: #baa35d;
+    font-weight: 800
+}
+
+.box-description{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "barlow", sans-serif;
+}
+
+.box-icon:hover{
+    background-color: #fff;
+    color: #baa35d;
+    transition: .3s all ease;
+}
+

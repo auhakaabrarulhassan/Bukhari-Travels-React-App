@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow",sans-serif;
+}
+
+.timig-bar{
+    background-color: #282828;
+    color: #fff;
+    height: 12px;
+}
+
+.open-hours-edit{
+    margin-right: 6px;
+}
+
+.left-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px !important;
+}
+
+.edit-icon{
+    margin-bottom: 14px;
+    margin-right: 5px;
+    color: #BAA35D;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+
+@media (max-width: 996px){
+    .timig-bar{
+        display: none;
+    }
+}

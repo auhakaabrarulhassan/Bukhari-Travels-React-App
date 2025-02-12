@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.about-main-page{
+    background: url(./Assets/pexels-yasirgurbuz-11895059.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    font-family: "Urbanist",sans-serif;
+}
+
+.overlays{
+    position: absolute;
+    background-color: rgba(51, 52, 53, .6);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-titles{
+    font-size: 52px;
+    font-weight: 700;
+    color: #Baa35D;
+    font-family: "Urbanist", sans-serif;
+}
+
+.text-bold{
+    font-weight: 800;
+}
+.page-description{
+    font-size: 22px;
+}
+
+.about-us-main-content{
+    background-color: #F8F8F8;
+    padding: 40px;
+}
+.text-brwown{
+    color: #baa35d;
+    font-family: "Barlow";
+}
+.about-description{
+    font-family: "Urbanist";
+    font-size: 37px;
+    font-weight: 700;
+}
+.about-description2{
+    color: #6a6a6a;
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.step-box{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.box-icon{
+    background-color: #baa35d;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 38px;
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #282828;
+}
+
+.box-title{
+    font-size: 20px;
+    font-family: "prata", sans-serif;
+    font-weight: 500;
+    color: #baa35d;
+}
+
+.box-description{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "barlow", sans-serif;
+}
+
+.box-icon:hover{
+    background-color: #fff;
+    color: #baa35d;
+    transition: .3s all ease;
+}
+
+
+.about-img{
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.about-img:hover{
+    transform: scale(1.02);
+    transition: 500ms ease;
+}  

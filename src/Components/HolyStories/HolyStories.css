@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.holy-stories-section{
+    max-width: 100%;
+    height: auto;
+    background-image: url(./Assets/Story\ section\ bg\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+}
+
+.overlay-color{
+    background-color: rgba(51, 52, 53, .9);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.holy-stories-page-title{
+    font-size: 13px;
+    font-family: "barlow", sans-serif;
+    font-weight: 600;
+    letter-spacing:1px;
+}
+
+.holy-stories-page-title-description{
+    font-size: 42px;
+    font-weight: 500px;
+    font-family: "prata", sans-serif;
+}
+
+.holy-stories-description{
+    color: #fff;
+    margin-left: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    width: 70%;
+}
+
+.all-stories-button, .card-button{
+    padding: 15px 35px;
+}
+
+.all-stories-button:hover{
+    background-color: #fff;
+    color: #baa35d;
+    transition: .3s all ease;
+}
+
+.card-button:hover{
+    background-color: #baa35d;
+    color: #282828;
+    transition: .3s all ease;
+}
+
+.card-body{
+    margin: 20px;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.story-card img{
+    border-radius: 4px;
+    width: 100%;
+}
+.card-title{
+    color: #baa35d;
+    font-family: "barlow";
+    font-size: 13px;
+    font-weight: 600;
+    margin: 20px 0px;
+    text-transform:uppercase;
+}
+
+.card-sub-title{
+    font-family: "prata",sans-serif;
+    color: #282828;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.card-button{
+    background-color: #282828;
+    color: #fff;
+    margin: 0px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.card img{
+    border-radius: 6px;
+    width: 100%;
+}

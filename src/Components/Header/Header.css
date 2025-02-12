@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color:#282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.navbar-input{
+    display: none;
+}
+
+
+.logo {
+    display: flex;
+    gap: 15px;
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.logo h1 span {
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fafafa;
+    font-weight: bold;
+    transition: .3s all;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+}
+.plane-icon{
+    color: #282828;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:#baa35d;
+}
+
+.plane-icon:hover{
+    background-color: #282828;
+    color: #baa35d;
+    margin-right: 5px;
+    transition: .3s all ease;
+}
+
+nav a:hover {
+    color: #baa35d;
+    text-shadow: 0px 0px 5px #baa35d;
+}
+
+.bukhari-logo {
+    display: contents;
+}
+
+.bukhari-logo h1 {
+    margin: auto;
+    color: #baa35d;
+    font-size: 1.2rem;
+}
+
+.text-blinking {
+    animation: blink 1.8s infinite;
+}
+
+.bukhari-logo,
+.logo-package {
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    nav {
+        position: absolute;
+        width: 100%;
+        background-color: #282828;
+        align-items: center;
+        top: 100px;
+        height: 0;
+        flex-direction: column;
+        left: 0;
+        transition: .5s;
+        overflow: hidden;
+    }
+
+    nav a:first-child {
+        margin-top: 50px;
+    }
+
+    label {
+        width: 45px;
+        height: 30px;
+        position: relative;
+    }
+
+    label div {
+        width: 100%;
+        height: 5px;
+        background-color: #baa35d;
+        position: absolute;
+        border-radius: 99px;
+        transform: translateY(-50%);
+        transition: .3s all ease;
+        transform: scale(1);
+    }
+
+    label div:nth-child(1) {
+        top: 0%;
+    }
+
+    label div:nth-child(2) {
+        top: 50%;
+    }
+
+    label div:nth-child(3) {
+        top: 100%;
+    }
+
+    input:checked+header nav {
+        height: 110vh;
+    }
+
+    input:checked+header label div:nth-child(1) {
+        transform: rotate(45deg);
+        top: 50%;
+    }
+
+    input:checked+header label div:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 50%;
+    }
+
+    input:checked+header label div:nth-child(2) {
+        transform: scale(0);
+        top: 50%;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        padding: 0px 15px;
+    }
+
+    .logo {
+        gap: 10px;
+    }
+
+    label {
+        height: 22px;
+    }
+}
+
+@media (max-width: 820px) {
+    nav {
+        transition: .007s all ease;
+        gap: 28px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .bukhari-logo h1 {
+        font-size: 1.2rem;
+    }
+
+    .book-service-button {
+        padding: 10px 20px !important;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
