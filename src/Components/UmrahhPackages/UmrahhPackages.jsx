@@ -146,7 +146,7 @@ function UmrahhPackages() {
           <div className="col-lg-12">
           <h2 className='page-directoring'>
           For Further Detail Visit Us
-          <Link to = "/features"><p>
+          <Link to = "/packages"><p>
           More Packages Detail
             </p></Link>
         </h2>

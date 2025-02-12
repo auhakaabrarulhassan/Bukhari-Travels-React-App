@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist";
+}
+
+.uline-0 {
+    text-decoration: none;
+}
+
+.umrahh-packages-section {
+    background-color: #f1f3f8;
+    overflow: hidden;
+}
+
+.p-title {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+.package-title{
+    text-align: center;
+    margin: 6px 0px;
+}
+
+.package-box {
+    border-radius: 28px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 12px;
+}
+
+.carousel-item img {
+    border-radius: 32px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+
+.package-box {
+    width: 100%;
+    background-color: #fff;
+}
+
+.package-content {
+    padding: 6px;
+}
+
+.package-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-1,
+.item-2 {
+    background-color: #e8f1eb;
+    text-align: center;
+    border-radius: 12px;
+    width: fit-content;
+    padding: 0px 12px;
+    margin: 2px;
+}
+
+.item-2 {
+    background-color: rgba(255, 203, 104, 0.15);
+}
+
+.text-green {
+    color: #1dab52;
+}
+
+.text-pink {
+    color: #ff678c;
+}
+
+.text-grey {
+    color: #6f7a8f;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.package-days {
+    color: #6F7A8F;
+    font-weight: 600;
+    margin: 8px 0px;
+}
+
+.flex-box {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.hotel-class {
+    background-color: #fcf2e8;
+    color: #ffae43;
+    border-radius: 8px;
+    padding: 0px 6px;
+}
+
+.package-price-details {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.package-price-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 8px;
+    margin: 0px 16px;
+}
+
+.package-nights,
+.hotel-category {
+    padding: 10px 70px;
+    outline: 1px solid #6F7A8F;
+    border-radius: 20px;
+}
+
+.hotel-category {
+    padding: 10px 60px;
+}
+
+.total-sum-sr {
+    display: flex;
+    gap: 5px;
+}
+
+.currency-tag {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.package-price {
+    font-size: 24px;
+    font-weight: 900;
+}

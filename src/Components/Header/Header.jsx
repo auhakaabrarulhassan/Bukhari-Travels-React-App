@@ -28,7 +28,7 @@ function Header() {
           <Link to="/">HOME</Link>
           <Link to="/aboutus">About Us</Link>
           <Link to="/packages">Packages</Link>
-          <Link to="/features">Features</Link>
+          <Link to="/hotels">Hotels</Link>
           <Link to="#Articles">Articles</Link>
         </nav>
       </header>

@@ -5,7 +5,6 @@ import "font-awesome/css/font-awesome.min.css";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import {
-  BrowserRouter,
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
@@ -13,7 +12,7 @@ import Structure from "./Components/Structure";
 import AboutUs from "./Components/AboutUs.jsx/AboutUs";
 import Packages from "./Components/Packages/Packages";
 import Home from "./Components/Home/Home";
-import Features from "./Components/FeaturesPage/Features";
+import Hotels from "./Components/Hotels/Hotels";
 const router = createBrowserRouter([
   {
     path: '/',
@@ -29,8 +28,8 @@ const router = createBrowserRouter([
         element: <Packages></Packages>,
       },
       {
-        path: "/features",
-        element: <Features></Features>,
+        path: "/hotels",
+        element: <Hotels></Hotels>,
       },
     ],
   },
