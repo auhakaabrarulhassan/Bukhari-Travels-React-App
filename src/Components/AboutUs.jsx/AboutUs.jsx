@@ -34,7 +34,7 @@
   <div className="container">
     <div className="row">
       <div className="col-lg-6">
-        <div className="left-content">
+        <div className="about-left-content">
           <h3 className="text-brwown">AboutUs</h3>
           <h2 className="about-description">
             Planning a trip should be very exciting adventure

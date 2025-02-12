@@ -53,6 +53,7 @@ function Packages() {
         <div className="p-title">
           <h2 className="text-center">9 Umrah Packages for you</h2>
         </div>
+        <h5 className='text-center text-danger'>*Prices are subject to change and may fluctuate*</h5>
       </div>
     </div>
     <hr />
