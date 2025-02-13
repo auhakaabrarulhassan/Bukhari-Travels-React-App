@@ -149,7 +149,7 @@ function Footer() {
         </div>
       </section>
       <div className="copywrigth-footer">
-        COPYRIGHT 2024 Bukhari Travels Pvt Ltd
+        COPYRIGHT 2025 Bukhari Travels Pvt Ltd
       </div>
     </>
   );

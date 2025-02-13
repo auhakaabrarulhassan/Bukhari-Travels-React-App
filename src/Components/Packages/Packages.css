@@ -104,6 +104,7 @@
     color: #ffae43;
     border-radius: 8px;
     padding: 0px 6px;
+    width: fit-content;
 }
 
 .package-price-details {

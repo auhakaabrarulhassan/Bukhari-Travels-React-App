@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hotels-page{
+    background-color: #f1f3f8;
+}
+
+.hotel-p-title{
+    margin: 8px 0px;
+}
+
+.hotel-box{
+    border-radius: 24px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding-left:  0px;
+}
+
+.hotel-box img{
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.h-title{}
+
+
+@media(width: 320px){
+    .hotel-box{
+        padding-left: 2px;
+    }
+}
