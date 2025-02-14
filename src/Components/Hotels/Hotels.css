@@ -8,27 +8,73 @@
     background-color: #f1f3f8;
 }
 
+.h-title{
+    margin-top: 6px;
+}
+
 .hotel-p-title{
     margin: 8px 0px;
 }
 
-.hotel-box{
-    border-radius: 24px;
-    background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding-left:  0px;
+.h-box{
+    background-color: #fff;
+    border-radius: 22px;
 }
 
-.hotel-box img{
+.h-image{
+    border-radius: 22px;
+    width: 100%;
     overflow: hidden;
-    border-radius: 12px;
+    height: 100%;
 }
 
-.h-title{}
+.h-details{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
+.h-location-details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.h-location-details img{
+    margin-bottom: 4px;
+}
 
-@media(width: 320px){
-    .hotel-box{
-        padding-left: 2px;
-    }
+.h-location,.h-distance{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.h-rating-points{
+    background-color: #282828;
+    color: #baa35d;
+    border-radius: 6px 6px 0 6px;
+    padding: 2px;
+}
+
+.h-facilities{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.f-points{
+    background-color: #282828;
+    color: #baa35d;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.h-price-box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }

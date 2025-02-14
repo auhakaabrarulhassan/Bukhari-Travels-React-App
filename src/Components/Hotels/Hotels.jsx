@@ -1,5 +1,8 @@
 import React from "react";
 import "../Hotels/Hotels.css";
+// Importing images which i use in this page
+import mapimg from "../Hotels/Assets/map-img.png";
+import distanceimg from "./Assets/distance-img.png";
 import hotelimg1 from "../Hotels/Assets/Hotel img 01.png";
 import hotelimg2 from "../Hotels/Assets/Hotel img 02.png";
 import hotelimg3 from "../Hotels/Assets/Hotel img 03.png";
@@ -30,25 +33,87 @@ function Hotels() {
                 *17 Best Hotels in Makkah for you*
               </h4>
               <hr />
-              <div className="hotel-box">
-                <div className="row">
-                  <div className="col-lg-3 col-md-4 col-sm-12">
-                    <img src={hotelimg1} alt="Voco Hotel" />
-                  </div>
-                  <div className="col-lg-5">
-                    <div className="h-details ps-4">
-                      <h3 className="h-title">voco Makkah an IHG Hotel</h3>
-                      <p className="hotel-class text-bold">
-                        4 <i className="fa-solid fa-star" />{" "}
-                      </p>
-                          <div className="row">
-                            <div className="col-lg-12">
-                              
+            </div>
+          </div>
+          
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="h-box">
+                  <div className="row">
+                    <div className="col-lg-4">
+                      <img src={hotelimg1} alt="" className="h-image" />
+                    </div>
+                    <div className="col-lg-5">
+                      <div className="h-details">
+                        <h3 className="">voco Makkah an IHG Hotel</h3>
+                        <p className="hotel-class text-bold">
+                          4 <i className="fa-solid fa-star" />{" "}
+                        </p>
+                        <div className="h-location-details">
+                          <p className="h-loaction">
+                            <img src={mapimg} alt="" />{" "}
+                            <span className="text-bold text-grey">
+                              Ibrahim Al Khalil, Makkah, Saudi Arabia
+                            </span>
+                          </p>
+                          <p className="h-distance">
+                            <img src={distanceimg} alt="" />
+                            <span className="text-bold text-grey">
+                              1.81 km from Kaaba (Masjid al-Haram)
+                            </span>
+                          </p>
+
+                          <p>
+                            <span className="text-bold me-1 h-rating-points">
+                              8.5
+                            </span>
+                            <span className="text-bold">
+                              Bukhari Travels Rating
+                            </span>
+                          </p>
+                          <div className="h-facilities">
+                            <div className="row">
+                            <p className="facilities-box col-lg-4 col-md-6 col-sm-12">
+                              <span className="me-2 f-points text-bold">
+                                8.5
+                              </span>
+                              <span className="text-grey">Staff</span>
+                            </p>
+                            <p className="col-lg-4 col-md-6 col-sm-12">
+                              <span className="f-points me-2 text-bold">
+                                9.0
+                              </span>
+                              <span className="text-grey">Facilities</span>
+                            </p>
+
+                            <p className="col-lg-4 col-md-6 col-sm-12">
+                              <span className="me-2 f-points text-bold">
+                                9.0
+                              </span>
+                              <span className="text-grey">Cleanliness</span>
+                            </p>
                             </div>
                           </div>
+                        </div>
+                      </div>
                     </div>
+
+                    <div className="col-lg-3 h-price-box">
+                        <div className="package-price-box">
+                          <div className="total-sum-sr">
+                            <p className="package-price m-0">1,486.16</p>
+                            <p className="currency-tag text-green">SAR</p>
+                          </div>
+                          <p className="text-bold text-grey m-0">
+                            Starting From
+                          </p>
+                          <p className="text-grey">
+                            Per room per night
+                          </p>
+                        </div>
+                      </div>
                   </div>
-                  <div className="col-lg-3"></div>
                 </div>
               </div>
             </div>
