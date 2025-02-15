@@ -1,5 +1,5 @@
 import React from 'react';
-import '../NewsSection/NewsSection.css';
+import './NewsSection.css';
 import Img1 from '../NewsSection/Assets/Img1.png';
 import Img2 from '../NewsSection/Assets/Img2.png';
 import Img3 from '../NewsSection/Assets/Img3.png';

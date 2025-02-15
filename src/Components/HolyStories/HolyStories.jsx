@@ -1,5 +1,5 @@
 import React from 'react';
-import "../HolyStories/HolyStories.css";
+import "./HolyStories.css";
 import StoryCard1 from '../HolyStories/Assets/Story card 1.png';
 import StoryCard2 from '../HolyStories/Assets/Story card 2.png';
 import StoryCard3 from '../HolyStories/Assets/Story card 3.png';

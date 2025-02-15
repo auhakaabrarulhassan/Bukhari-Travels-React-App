@@ -1,5 +1,5 @@
 import React from "react";
-import '../HowBook/HowBook.css'
+import './HowBook.css'
 
 function HowBook() {
   return (

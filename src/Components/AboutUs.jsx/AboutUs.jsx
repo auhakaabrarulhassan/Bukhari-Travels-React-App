@@ -1,5 +1,5 @@
   import React from "react";
-  import "../AboutUs.jsx/AboutUs.css";
+  import "./AboutUs.css"
   import MakkahPic from "./Assets/makkah-3800665_640 1.png";
   import About2Pic from "./Assets/about-2.jpg";
   import About3Pic from "./Assets/about-3.jpg";
