@@ -13,6 +13,7 @@ import AboutUs from "./Components/AboutUs.jsx/AboutUs";
 import Packages from "./Components/Packages/Packages";
 import Home from "./Components/Home/Home";
 import Hotels from "./Components/Hotels/Hotels";
+import Login from "./Components/Login/Login";
 const router = createBrowserRouter([
   {
     path: '/',
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         path: "/hotels",
         element: <Hotels></Hotels>,
       },
+      {
+        path: "/login",
+        element: <Login></Login>
+      }
     ],
   },
 ]);
