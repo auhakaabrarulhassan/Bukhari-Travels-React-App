@@ -7,19 +7,20 @@ import hotelimg1 from "../Hotels/Assets/Hotel img 01.png";
 import hotelimg2 from "../Hotels/Assets/Hotel img 02.png";
 import hotelimg3 from "../Hotels/Assets/Hotel img 03.png";
 import hotelimg4 from "../Hotels/Assets/Hotel img 04.png";
-import hotelimg5 from "../Hotels/Assets/Hotel img 05.png";
-import hotelimg6 from "../Hotels/Assets/Hotel img 06.png";
-import hotelimg7 from "../Hotels/Assets/Hotel img 07.png";
-import hotelimg8 from "../Hotels/Assets/Hotel img 08.png";
-import hotelimg9 from "../Hotels/Assets/Hotel img 09.png";
-import hotelimg10 from "../Hotels/Assets/Hotel img 10.png";
-import hotelimg11 from "../Hotels/Assets/Hotel img 11.png";
-import hotelimg12 from "../Hotels/Assets/Hotel img 12.png";
-import hotelimg13 from "../Hotels/Assets/Hotel img 13.png";
-import hotelimg14 from "../Hotels/Assets/Hotel img 14.png";
-import hotelimg15 from "../Hotels/Assets/Hotel img 15.png";
-import hotelimg16 from "../Hotels/Assets/Hotel img 16.png";
-import hotelimg17 from "../Hotels/Assets/Hotel img 17.png";
+// This images is pending for the usuage of the next hotels
+// import hotelimg5 from "../Hotels/Assets/Hotel img 05.png";
+// import hotelimg6 from "../Hotels/Assets/Hotel img 06.png";
+// import hotelimg7 from "../Hotels/Assets/Hotel img 07.png";
+// import hotelimg8 from "../Hotels/Assets/Hotel img 08.png";
+// import hotelimg9 from "../Hotels/Assets/Hotel img 09.png";
+// import hotelimg10 from "../Hotels/Assets/Hotel img 10.png";
+// import hotelimg11 from "../Hotels/Assets/Hotel img 11.png";
+// import hotelimg12 from "../Hotels/Assets/Hotel img 12.png";
+// import hotelimg13 from "../Hotels/Assets/Hotel img 13.png";
+// import hotelimg14 from "../Hotels/Assets/Hotel img 14.png";
+// import hotelimg15 from "../Hotels/Assets/Hotel img 15.png";
+// import hotelimg16 from "../Hotels/Assets/Hotel img 16.png";
+// import hotelimg17 from "../Hotels/Assets/Hotel img 17.png";
 
 function Hotels() {
   return (
