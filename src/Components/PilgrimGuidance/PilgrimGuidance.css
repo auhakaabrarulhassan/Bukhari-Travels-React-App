@@ -33,7 +33,7 @@
     margin-bottom: 10px;
 }
 
-/* @keyframes box-shadow{
+@keyframes box-shadow{
     0%{
         box-shadow: none;
     }
@@ -48,8 +48,8 @@
     100%{
         box-shadow: none;
     }
-} */
-/* 
+}
+
 .yt-vedio-button{
     display: flex;
     align-items: center;
@@ -58,9 +58,9 @@
     height: 100%;
     margin: auto;
     flex-wrap: wrap;
-} */
+}
 
-/* 
+
 @media (max-width: 768px){
     .yt-vedio{
         margin-bottom: 20px;

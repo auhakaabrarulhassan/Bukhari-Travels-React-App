@@ -3,3 +3,144 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-left-content {
+    background-image: url(./Assets/Login\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay1 {
+    background-color: rgba(51, 52, 53, 0.9);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-right-content {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.para {
+    color: grey;
+    font-weight: 500;
+    text-align: center;
+}
+
+.input-bars {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+input, .PhoneInput {
+    border: none;
+    padding: 12px 15px;
+    background-color: #ebedf3;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 12px;
+}
+
+.links {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.register-flex {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.register-slogan {
+    color: rgb(126, 130, 153);
+    font-weight: 600;
+}
+
+.links-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .login-left-content {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .login-left-content {
+        height: 40vh;
+    }
+    .login-right-content {
+        padding: 20px;
+        width: 90%;
+    }
+    input, .PhoneInput {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-left-content {
+        height: 30vh;
+    }
+    .login-right-content {
+        padding: 15px;
+        width: 95%;
+    }
+    .links-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
